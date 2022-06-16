@@ -1,0 +1,253 @@
+body{
+    font-family: Candara;
+    text-align: center;
+    margin: 0;
+}
+
+@font-face {
+    font-family:'Candara';
+    src: url('Candara.otf')
+    format('opentype'),
+    url('Candara.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#nav{
+    background-image: url('fundo.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    border-bottom: 10px double ivory;
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-size: 20pt;
+    color: wheat;
+    z-index: 5;
+    
+
+
+}
+
+#main{
+    background-image: url('fundo_main.jpg');
+    background-size: 100%;
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#main_atracao{
+    background-image: url('fundo_atracao.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: ivory;
+
+}
+
+a:hover{
+    font-weight: bold;
+    color: olive;
+}
+link:hover{
+    font-weight: bold;
+    color: green;
+}
+
+img:hover{
+    border-color: green;
+}
+
+p:hover{
+    color:orange;
+}
+
+span:hover{
+    color:orange;
+}
+
+textarea:focus-within{
+    color: orange;
+}
+
+input:focus-within{
+    color: orange;
+}
+
+select:focus-within{
+    color: orange;
+}
+
+.cabecalho{
+    background-image: url('fundo_cabecalho.jpg');
+    color: olive;
+    width: 95%;
+    border: 4px solid olive;
+    margin: 10px auto;
+    font-size: 38px;
+    font-weight: bold;
+
+}
+
+.cabecalho2{
+    background-image: url('fundo_cabecalho.jpg');
+    color: olive;
+    width: 95%;
+    border: 4px solid olive;
+    margin: 10px auto;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+.paragrafo{
+    color: brown;
+    width: 90%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 20px auto; 
+}
+
+.paragrafo_form{
+    color: brown;
+    width: 90%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 20px auto; 
+}
+
+
+.paragrafo_form2{
+    color: brown;
+    width: 90%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 40px; 
+}
+
+
+input, label, textarea, select{
+    font-family: Candara;
+    font-size: 12px;
+    color: brown;
+    font-weight: bold;
+    text-align: left;
+
+    }
+.borda{
+    border-radius: 25px;
+    border: 3px dashed BurlyWood;
+}
+
+.img_borda{
+   border: 3px dashed BurlyWood;
+   
+}
+
+.figure{
+    float: left;
+    width: 40%;
+    left: 70px;
+    margin-top: 30px;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px dashed BurlyWood;
+    
+}
+
+.figure2{
+    float: left;
+    width: 40%;
+    left: 70px;
+    margin-top: 30px;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px dashed BurlyWood;
+    
+}
+
+
+
+
+
+table{
+    
+    margin: 30px auto;
+    font-size: 19px;
+    color: darkgreen;
+    width: 65%;
+
+}
+
+#tabela{
+    border-spacing: 0 30px;
+}
+td, th{
+    border: 2px groove Tan;
+   
+}
+
+th{
+    background-image: url('fundo_cabecalho.jpg');
+
+}
+
+
+
+.pad{
+    padding: 80px 60px 80px 60px;
+}
+
+
+.borda_atracao{
+    border: 2px dashed BurlyWood;
+
+
+}
+
+.aside{
+    float: right;
+    width: 60%;
+    right: 0;
+    margin-top: 5px;
+    position: absolute;
+}
+
+form{
+    font-family: Candara;
+    position: absolute;
+    bottom: 167px;
+    right: 110px;
+    width: 35%;
+    height: 330px;
+    border-radius: 24px; 
+    border: 5px solid olive;
+    margin: 10px auto;
+    
+}
+
+.format_select{
+    font-weight: bold; 
+    font-style: italic; 
+    font-size: 12pt;
+}
